@@ -11,6 +11,7 @@ body {
    font-weight: 500;
    line-height: 16px;
    letter-spacing: 0.02em;
+   color: #212121;
    text-decoration: none;
 }
 .navigation:hover, .navigation:focus {
@@ -46,7 +47,6 @@ body {
 }
 .list-style > li {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -68,4 +68,54 @@ body {
     letter-spacing: 0.06em; 
     text-transform: uppercase;
     color: #FFFFFF
+}
+.lorem p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #757575;
+}
+.lorem h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.section-name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.section-color {
+    background-color: #F5F4FA;
+}
+.portret {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    background-color: #FFFFFF;
+}
+.portret h4 {
+    font-weight: 500;
+    color: #212121;
+}
+.portfolio h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color:#212121
+}
+.portfolio span {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
