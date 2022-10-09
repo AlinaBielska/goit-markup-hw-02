@@ -9,7 +9,7 @@ body {
    font-style: normal;
    font-size: 14px; 
    font-weight: 500;
-   line-height: 16px;
+   line-height: 1.14;
    letter-spacing: 0.02em;
    color: #212121;
    text-decoration: none;
@@ -21,7 +21,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
@@ -34,7 +34,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
     text-decoration: none;
@@ -48,7 +48,7 @@ body {
 .list-style > li {
     font-style: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #FFFFFF
@@ -64,7 +64,7 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em; 
     text-transform: uppercase;
@@ -72,7 +72,7 @@ body {
 }
 .lorem p {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
     color: #757575;
@@ -80,7 +80,7 @@ body {
 .lorem h3 {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
@@ -88,7 +88,7 @@ body {
 .section-name {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -97,7 +97,7 @@ body {
 }
 .portret {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
@@ -110,20 +110,20 @@ body {
 .portfolio h4 {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color:#212121
 }
 .portfolio span {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .order {
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;
@@ -132,28 +132,29 @@ body {
     background-color: #2196F3;
     cursor: pointer;
 }
-.services {
+.services button {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
+    display: flex;
     text-align: center;
     letter-spacing: 0.03em;
     background-color: #F5F4FA;
     cursor: pointer;
 }
-.services:hover, .services:focus {
+.services:hover button, .services:focus button {
     color: #FFFFFF;
     background-color: #2196F3;
 }
 .portfolio h4 {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 .portfolio span {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
 }
