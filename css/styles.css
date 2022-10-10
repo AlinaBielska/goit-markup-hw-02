@@ -2,36 +2,41 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
 }
+:root {
+    --main-color: #212121;
+    --brand-color: #2196F3;
+    --background-gray: #2f303a;
+    --background-bright: #F5F4FA;
+    --extra-gray: #757575;
+    --main-white: #FFFFFF;
+}
 .list-style {
     list-style: none;
 }
 .navigation {
-   font-style: normal;
    font-size: 14px; 
    font-weight: 500;
    line-height: 1.14;
    letter-spacing: 0.02em;
-   color: #212121;
+   color: var(--main-color);
    text-decoration: none;
 }
 .navigation:hover, .navigation:focus {
-    color: #2196F3;
+    color: var(--brand-color);
 }
 .top-contact {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--extra-gray);
     text-decoration: none;
 }
 .top-contact:hover, .top-contact:focus, .lower-contact:hover, .lower-contact:focus {
-    color: #2196F3;
+    color: var(--brand-color);
 }
 .color-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -40,42 +45,40 @@ body {
     text-decoration: none;
 }
 .color-logo-web {
-    color: #2196F3
+    color: var(--brand-color)
 }
 .logo-white {
-    color:#FFFFFF;
+    color: var(--main-white);
 }
 .list-style > li {
-    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #FFFFFF
+    color: var(--main-white);
 }
 .lower-contact {
     color: rgba(255, 255, 255, 0.6);
     cursor: pointer;
 }
 .background-styling {
-    background-color: #2f303a;
+    background-color: var(--background-gray);
 }
 .main-slogan {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em; 
     text-transform: uppercase;
-    color: #FFFFFF
+    color: var(--main-white);
 }
 .lorem p {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
-    color: #757575;
+    color: var(--extra-gray);
 }
 .lorem h3 {
     font-weight: 700;
@@ -83,7 +86,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--main-color);
 }
 .section-name {
     font-weight: 700;
@@ -93,32 +96,32 @@ body {
     letter-spacing: 0.03em;
 }
 .section-color {
-    background-color: #F5F4FA;
+    background-color: var(--background-bright);
 }
 .portret {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
-    background-color: #FFFFFF;
+    color: var(--extra-gray);
+    background-color: var(--main-white);
 }
 .portret h4 {
     font-weight: 500;
-    color: #212121;
+    color: var(--main-color);
 }
 .portfolio h4 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color:#212121
+    color: var(--main-color);
 }
 .portfolio span {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--extra-gray);
 }
 .order {
     font-weight: 700;
@@ -128,23 +131,23 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--main-white);
+    background-color: var(--brand-color);
     cursor: pointer;
 }
-.services button {
+.services {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     display: flex;
     text-align: center;
     letter-spacing: 0.03em;
-    background-color: #F5F4FA;
+    background-color: var(--background-bright);
     cursor: pointer;
 }
-.services:hover button, .services:focus button {
-    color: #FFFFFF;
-    background-color: #2196F3;
+.services:hover, .services:focus {
+    color: var(--main-white);
+    background-color: var(--brand-color);
 }
 .portfolio h4 {
     font-weight: 700;
@@ -156,5 +159,5 @@ body {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--extra-gray);
 }
