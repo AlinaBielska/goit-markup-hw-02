@@ -9,6 +9,8 @@ body {
     --background-bright: #F5F4FA;
     --extra-gray: #757575;
     --main-white: #FFFFFF;
+    --total-black: #000000;
+    -color-contact: rgba(255, 255, 255, 0.6);
 }
 .list-style {
     list-style: none;
@@ -41,7 +43,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: var(--total-black);
     text-decoration: none;
 }
 .color-logo-web {
@@ -58,7 +60,7 @@ body {
     color: var(--main-white);
 }
 .lower-contact {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--color-contact);
     cursor: pointer;
 }
 .background-styling {
