@@ -52,13 +52,6 @@ body {
 .logo-white {
     color: var(--main-white);
 }
-.list-style > li {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: var(--main-white);
-}
 .lower-contact {
     color: var(--color-contact);
     cursor: pointer;
@@ -75,14 +68,14 @@ body {
     text-transform: uppercase;
     color: var(--main-white);
 }
-.lorem p {
+.lorem-text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
     color: var(--extra-gray);
 }
-.lorem h3 {
+.lorem-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -108,18 +101,18 @@ body {
     color: var(--extra-gray);
     background-color: var(--main-white);
 }
-.portret h4 {
+.portret-name {
     font-weight: 500;
     color: var(--main-color);
 }
-.portfolio h4 {
+.portfolio-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-color);
 }
-.portfolio span {
+.portfolio-text {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
@@ -150,16 +143,4 @@ body {
 .services:hover, .services:focus {
     color: var(--main-white);
     background-color: var(--brand-color);
-}
-.portfolio h4 {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-}
-.portfolio span {
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.03em;
-    color: var(--extra-gray);
 }
