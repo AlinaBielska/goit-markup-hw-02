@@ -10,7 +10,7 @@ body {
     --extra-gray: #757575;
     --main-white: #FFFFFF;
     --total-black: #000000;
-    -color-contact: rgba(255, 255, 255, 0.6);
+    --color-contact: rgba(255, 255, 255, 0.6);
 }
 .list-style {
     list-style: none;
@@ -51,10 +51,6 @@ body {
 }
 .logo-white {
     color: var(--main-white);
-}
-.lower-contact {
-    color: var(--color-contact);
-    cursor: pointer;
 }
 .background-styling {
     background-color: var(--background-gray);
@@ -131,6 +127,7 @@ body {
     cursor: pointer;
 }
 .services {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -143,4 +140,19 @@ body {
 .services:hover, .services:focus {
     color: var(--main-white);
     background-color: var(--brand-color);
+}
+.lower-contact {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-contact);
+    cursor: pointer;
+}
+.lower-address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-white);
 }
